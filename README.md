@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/516771cd-95bd-4a8b-99e2-b24bf8bbc89d/deploy-status)](https://app.netlify.com/sites/room-joaop/deploys)
+
 # Sobre.
 Este projeto utiliza React, StyledComponent(SASS) e Webpack para atingir o design desejado para o desafio FrontEnd Mentor.
 
