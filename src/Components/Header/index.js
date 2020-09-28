@@ -18,9 +18,9 @@ const Header = () => {
     return (
         <StyledHeader width={width} menuOpen={menuOpen}>
             <button id="hamburger" onClick={() => handleMenuOpen()}>
-                <img src={menuOpen ? IconClose : IconHamburger} />
+                <img src={menuOpen ? IconClose : IconHamburger} alt="Open and close menu icon" />
             </button>
-            <img src={Logo} id="logo" />
+            <img src={Logo} id="logo" alt="Logo" />
             <div id="menu">
                 <a href='#Home'>Home</a>
                 <a href='#Shop'>Shop</a>

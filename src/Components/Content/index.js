@@ -43,7 +43,7 @@ const Home = () => {
     return (
         <StyledContent width={width}>
             <img src={slides[currentSlide].img} />
-            <div>
+            <section>
                 <h1>{slides[currentSlide].title}</h1>
                 <p>
                     {slides[currentSlide].text}
@@ -58,7 +58,7 @@ const Home = () => {
                     <button onClick={() => handleClick(-1)}><img src={IconAngleLeft} /></button>
                     <button onClick={() => handleClick(1)}><img src={IconAngleRight} /></button>
                 </div>
-            </div>
+            </section>
         </StyledContent>
     )
 }

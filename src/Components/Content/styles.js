@@ -1,9 +1,9 @@
 import Styled from 'styled-components';
 
-const StyledContent = Styled.div`
+const StyledContent = Styled.main`
     display: flex;
     flex-direction: ${({ width }) => width > 375 ? 'row' : 'column'};
-    div {
+    section {
         position: relative;
         padding: ${({ width }) => width > 375 ? '100px' : '30px'};
         width: ${({ width }) => width > 375 ? 'auto' : '100%'}

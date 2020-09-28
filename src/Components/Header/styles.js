@@ -1,6 +1,6 @@
 import Styled from 'styled-components';
 
-const StyledHeader = Styled.div`
+const StyledHeader = Styled.nav`
     position: fixed;
     left: ${({ width }) => width > 375 ? '60px' : '0'};
     top: 50px;

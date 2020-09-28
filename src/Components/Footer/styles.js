@@ -1,9 +1,9 @@
 import Styled from 'styled-components';
 
-const StyledFooter = Styled.div`
+const StyledFooter = Styled.footer`
     display: flex;
     flex-direction: ${({ width }) => width > 375 ? 'row' : 'column'};
-    div {
+    section {
         padding: ${({ width }) => width > 375 ? '50px' : '30px'};
         h3 {
             margin-bottom: 0px;

@@ -1,6 +1,14 @@
 # Sobre.
 Este projeto utiliza React, StyledComponent(SASS) e Webpack para atingir o design desejado para o desafio FrontEnd Mentor.
 
+## Como executar?
+* Clone o repo.
+* Dentro do projeto execute `npm start` no terminal.
+* Acesse `localhost:8080`.
+
+## Como gerar a build?
+* Dentro do projeto execute `npm run build` no terminal.
+* Após a execução, o código será armazenado na pasta dist.
 ---
 
 # Frontend Mentor - Room homepage

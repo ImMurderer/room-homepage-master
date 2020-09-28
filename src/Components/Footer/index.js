@@ -10,9 +10,9 @@ const Footer = () => {
     const width = useWindowWidth();
     return (
         <StyledFooter width={width}>
-            <img src={ImageDark} />
+            <img src={ImageDark} alt="Image presenting two sofas in a dark place" />
 
-            <div>
+            <section>
                 <h3>About our furniture</h3>
                 <p>
                     Our multifunctional collection blends design and function to suit your individual taste.
@@ -20,8 +20,8 @@ const Footer = () => {
                     inspires you. Find the furniture pieces you need, from traditional to contemporary styles
                     or anything in between. Product specialists are available to help you create your dream space.
                 </p>
-            </div>
-            <img src={ImageLight} />
+            </section>
+            <img src={ImageLight} alt="Image presenting a white chair in a white well iluminated plate" />
         </StyledFooter>
     )
 }

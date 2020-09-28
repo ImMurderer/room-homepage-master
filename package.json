@@ -4,7 +4,8 @@
   "description": "Frontend Project made to frontendmentor.io using React and Webpack.",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server --config webpack.dev.js",
+    "build": "rmdir /s /q dist && webpack --config webpack.prod.js"
   },
   "author": "ImMurderer",
   "license": "MIT",
