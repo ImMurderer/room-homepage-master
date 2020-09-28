@@ -3,6 +3,9 @@ import StyledContent from './styles';
 
 import ImageHeroOne from '../../../images/desktop-image-hero-1.jpg';
 import IconArrow from '../../../images/icon-arrow.svg';
+import IconAngleLeft from '../../../images/icon-angle-left.svg';
+import IconAngleRight from '../../../images/icon-angle-right.svg';
+
 
 const Home = () => {
     return (
@@ -22,6 +25,10 @@ const Home = () => {
                         </a>
                     </span>
                 </p>
+                <div className="control-buttons">
+                    <button><img src={IconAngleLeft} /></button>
+                    <button><img src={IconAngleRight} /></button>
+                </div>
             </div>
         </StyledContent>
     )

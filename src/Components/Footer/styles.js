@@ -13,6 +13,7 @@ const StyledFooter = Styled.div`
         p {
             font-weight: 500;
             color: var(--dark-gray);
+            line-height: 20px;
         }
     }
 `
