@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useWindowSize } from '@react-hook/window-size';
+import { useWindowWidth } from '@react-hook/window-size';
 import StyledContent from './styles';
 
 // Desktop Images
@@ -17,7 +17,7 @@ import IconAngleLeft from '../../../images/icon-angle-left.svg';
 import IconAngleRight from '../../../images/icon-angle-right.svg';
 
 const Home = () => {
-    const [width, height] = useWindowSize();
+    const width = useWindowWidth();
     const slides = [
         {
             img: width > 375 ? ImageHeroOne : MobileImageHeroOne,

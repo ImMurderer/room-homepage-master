@@ -1,13 +1,15 @@
 import React from 'react';
 import StyledFooter from './styles';
+import { useWindowWidth } from '@react-hook/window-size';
 
 import ImageDark from '../../../images/image-about-dark.jpg';
 import ImageLight from '../../../images/image-about-light.jpg';
 
 
 const Footer = () => {
+    const width = useWindowWidth();
     return (
-        <StyledFooter>
+        <StyledFooter width={width}>
             <img src={ImageDark} />
 
             <div>
