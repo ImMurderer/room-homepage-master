@@ -9,6 +9,7 @@
   "author": "ImMurderer",
   "license": "MIT",
   "dependencies": {
+    "@react-hook/window-size": "^3.0.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "styled-components": "^5.2.0"

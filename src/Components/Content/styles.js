@@ -2,9 +2,11 @@ import Styled from 'styled-components';
 
 const StyledContent = Styled.div`
     display: flex;
+    flex-direction: ${({ width }) => width > 375 ? 'row' : 'column'};
     div {
         position: relative;
-        padding: 100px;
+        padding: ${({ width }) => width > 375 ? '100px' : '30px'};
+        width: ${({ width }) => width > 375 ? 'auto' : '100%'}
         h1 {
             color: black;
             font-size: 32px;
@@ -38,14 +40,15 @@ const StyledContent = Styled.div`
         .control-buttons {
             padding: 0;
             position: absolute;
-            left: 0;
-            bottom: 0;
+            ${({ width }) => width > 375 ? 'left: 0' : 'right: 0'};
+            ${({ width }) => width > 375 ? 'bottom: 0' : 'top: 0'};
+            transform: translateY(${({ width }) => width > 375 ? '0' : '-100%'});
             button {
                 background-color: black;
                 border: 0;
                 outline: 0;
-                width: 80px;
-                height: 80px;
+                width: ${({ width }) => width > 375 ? '80px' : '50px'};
+                height: ${({ width }) => width > 375 ? '80px' : '50px'};
                 &:hover {
                     background-color: var(--very-dark-gray);
                 }
